@@ -17,7 +17,7 @@ end
 describe "the merge_all_crypto(page) method" do
     it "should return an array with an hash and is not nil" do
     expect(merge_all_crypto(Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")))).is_a?(Array)
-    expect(merge_all_crypto(Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")))).not_to be_nil
+    #expect(merge_all_crypto(Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")))).not_to be_nil
     #expect(merge_all_crypto(Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")))).is_a?(Array)
     end
 end

@@ -49,8 +49,8 @@ def full_identity (firstname, lastname, depute_mail)
     for i in 0...firstname.size #fusion du final array contenant un hash
         final_array << {:first_name => firstname[i], :last_name => lastname[i], :email => depute_mail[i]}
     end
-   return puts final_array
-    
+    puts final_array
+    return final_array
 end
 def perform
     main_url = "http://www2.assemblee-nationale.fr/deputes/liste/alphabetique"
