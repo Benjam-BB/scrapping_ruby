@@ -25,11 +25,11 @@ def merge_all_crypto(page)
         all_crypto << {all_crypto_names[i] => all_crypto_prices [i]}
     end
     #puts all_crypto[i].class #to be sure it is an hash
-    return all_crypto 
+    return puts all_crypto 
 end
 
 
-    #merge_all_crypto(page)
+    merge_all_crypto(page)
 
 
 

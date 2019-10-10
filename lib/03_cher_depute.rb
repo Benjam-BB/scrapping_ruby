@@ -2,7 +2,7 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
-#main_url = "http://www2.assemblee-nationale.fr/deputes/liste/alphabetique"
+
 def get_depute_name(main_url)#pour trouver l'adresse mail d'une mairie à partir de son URL
     page = Nokogiri::HTML(open(main_url))
     fullname = []

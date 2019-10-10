@@ -35,7 +35,7 @@ def perform
     for i in 0...array_townhall_name.size #fusion du final array contenant un hash
         final_array << {array_townhall_name[i] => array_list_mail[i]}
     end
-return final_array
+return puts final_array
 
 end
 
